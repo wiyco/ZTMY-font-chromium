@@ -1,4 +1,4 @@
-# ZTMY Font
+# ZTMY Font extention for chromium browser
 
 ## 必須
 

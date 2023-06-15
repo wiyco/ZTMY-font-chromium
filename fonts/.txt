@@ -1,0 +1,4 @@
+このフォルダ内に以下のフォントファイルを入れてください。
+
+- ZTMY_MOJI-R.otf
+- PixelMplus12-Regular.ttf

@@ -1,4 +1,4 @@
-# ZTMY Font extention of Chromium browser
+# ZTMY Font extension of Chromium browser
 
 `Google Chrome`などの`Chromium`ベースのブラウザで使用できる拡張機能です。
 

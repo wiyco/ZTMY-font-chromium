@@ -40,3 +40,9 @@
 > **Warning**
 > 
 > 読み込んだ後にフォルダの場所を変えた際は再度フォルダを指定する必要があります。
+
+## Contributor
+
+### Icon
+
+[@yokotoraaaa](https://twitter.com/yokotoraaaa)

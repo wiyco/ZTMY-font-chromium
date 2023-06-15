@@ -1,22 +1,42 @@
-# ZTMY Font extention for chromium browser
+# ZTMY Font extention of Chromium browser
 
-## 必須
+`Google Chrome`などの`Chromium`ベースのブラウザで使用できる拡張機能です。
 
-この拡張機能を使うには、以下のフォントをダウンロードし、該当フォルダにコピーする必要があります。(二次配布禁止のため)
+![demo](https://www.dropbox.com/s/cjmv445qm9fst69/demo.png?raw=1)
 
-### フォント
+## インストール
 
-- [FONT | ずっと真夜中でいいのに。](https://zutomayo.net/font/)
-- [PixelMplus | itouhiroはてなブログ](https://itouhiro.hatenablog.com/entry/20130602/font)
+以下の手順でインストールを進めてください。
 
-## フォントをコピーするフォルダ
+- フォントのダウンロード
+- フォントの編集
+- フォントをコピー
+- 拡張機能を読み込む
 
-zipを解凍して`/fonts`フォルダにフォントをコピーしてください。
+### フォントのダウンロード
+
+以下の2つのフォントをダウンロードしてください。(二次配布禁止のため)
+
+- [ZTMY_MOJI-R.otf](https://zutomayo.net/font/)
+- [PixelMplus12-Regular.ttf](https://itouhiro.hatenablog.com/entry/20130602/font)
+
+### フォントの編集
+
+[FontForge](https://fontforge.org/)を使用して、[`ZTMY_MOJI-R.otf`](https://zutomayo.net/font/)フォントを編集します。フォントが割り当てられていない部分(ダミーフォント)を`Cut`し、`OpenType`フォントとして出力してください。
+
+![font-face](https://www.dropbox.com/s/6gjti8nbmho96gp/font-face.png?raw=1)
+
+## フォントのコピー
+
+[Release](https://github.com/wiyco/ZTMY-font-chromium/releases)からダウンロードした`zip`を解凍して`/fonts`フォルダに以下2つのフォントをコピーしてください。
+
+- `ZTMY_MOJI-R.otf(編集済み)`
+- `PixelMplus12-Regular.ttf`
 
 ## 拡張機能を読み込む
 
-`chromium`ベースのブラウザで、`拡張機能を管理`から`デベロッパーモード`を`ON`にし、`パッケージ化されていない拡張機能を読み込む`から`ztmy-font`フォルダを指定してください。
+`chromium`ベースのブラウザで、`拡張機能を管理`から`デベロッパーモード`を`ON`にし、`パッケージ化されていない拡張機能を読み込む`から解凍したフォルダを指定してください。
 
 > **Warning**
 > 
-> 読み込んだ後にフォルダの場所を変えた場合は再度読み込む必要があります。
+> 読み込んだ後にフォルダの場所を変えた際は再度フォルダを指定する必要があります。

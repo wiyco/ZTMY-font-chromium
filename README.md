@@ -10,7 +10,7 @@
 
 - フォントのダウンロード
 - フォントの編集
-- フォントをコピー
+- フォントのコピー
 - 拡張機能を読み込む
 
 ### フォントのダウンロード
@@ -26,14 +26,14 @@
 
 ![font-face](https://www.dropbox.com/s/6gjti8nbmho96gp/font-face.png?raw=1)
 
-## フォントのコピー
+### フォントのコピー
 
-[Release](https://github.com/wiyco/ZTMY-font-chromium/releases)からダウンロードした`zip`を解凍して`/fonts`フォルダに以下2つのフォントをコピーしてください。
+[Release](https://github.com/wiyco/ZTMY-font-chromium/releases)からダウンロードした`zip`を解凍し、`/fonts`フォルダに以下2つのフォントをコピーしてください。
 
 - `ZTMY_MOJI-R.otf(編集済み)`
 - `PixelMplus12-Regular.ttf`
 
-## 拡張機能を読み込む
+### 拡張機能を読み込む
 
 `chromium`ベースのブラウザで、`拡張機能を管理`から`デベロッパーモード`を`ON`にし、`パッケージ化されていない拡張機能を読み込む`から解凍したフォルダを指定してください。
 
